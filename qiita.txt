@@ -1,4 +1,0 @@
-gcc の glibc newlib より速いクイックソートqsort
-(qs12 qs13)、 平均計算時間最速をめざして
-
-
