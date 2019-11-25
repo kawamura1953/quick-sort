@@ -25,6 +25,7 @@ mpsとは、サンプル(m個)をソートして、区間(2m+1個)のそれぞ�
 
 newlib・glibc・qs15・qs16の比較回数・実行時間を以下に示します。
 qs_glibcは、glibcのqsortを実験用に改造したものです。
+使用したプログラムは https://github.com/kawamura1953/quick-sort にあります。
 
 
 
@@ -116,7 +117,7 @@ qs16e2   d=10 e=1000000 s=400 R20 M120:580:180:0: c=2910960   58219214 T=5.22   
 
 
 
-ssortのベンチマークテストの要領
+qsortのベンチマークテストの要領
 
 １．github.com/kawamura1953/quick-sort から次の７つのファイルをダウンロードする。
 
